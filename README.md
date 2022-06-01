@@ -1,29 +1,47 @@
-# my-first-vue-cli-app
+# Projet 7 - Groupomania !
 
-## Project setup
+7ème et dernier projet de la formation développeur web d'Openclassrooms.
+Créer un réseau social d'entreprise.
+La stack utilisée pour ce projet:
 
-```
-npm install
-```
+- VueJs 
+- NodeJs + express + mysql
 
-### Compiles and hot-reloads for development
+## Frontend
 
-```
-npm run serve
-```
+Dans le dossier ouvrez  le terminal de votre éditeur puis exécuter la commande:
 
-### Compiles and minifies for production
+    npm install
 
-```
-npm run build
-```
+puis
 
-### Lints and fixes files
+    npm start serve
 
-```
-npm run lint
-```
+si le navigateur ne s'ouvre pas automatiquement allez à :
 
-### Customize configuration
+- http://localhost:8080/
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Backend
+
+Ouvrir le dossier Backend dans le terminal de votre éditeur puis exécuter la commande:
+
+    npm install
+
+puis
+
+    nodemon serve
+
+## Base de données
+
+Se connecter au serveur MySql de votre choix : WAMP, MAMP (Ce sont des exemples)
+Exécuter la commande: `create databases groupomania` dans votre terminal 
+
+    mysql -u root -p groupomania < groupomania_31052022.sql
+
+
+Les informations pour se connecter au compte admin sont  : 
+// ADRESSE MAIL ADMIN:  sebastien.pro210@gmail.com 
+//  MOT DE PASSE ADMIN:  Tokenrandom&1
+
+Le compte donne accès à la modification d'un post et la suppression d'un post !
+
