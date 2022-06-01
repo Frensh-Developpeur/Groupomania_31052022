@@ -40,8 +40,8 @@ Exécuter la commande: `create databases groupomania` dans votre terminal
 
 
 Les informations pour se connecter au compte admin sont  : 
-// sebastien.pro210@gmail.com ADRESSE MAIL ADMIN
-// Tokenrandom&1 MOT DE PASSE ADMIN
+// ADRESSE MAIL ADMIN:  sebastien.pro210@gmail.com 
+//  MOT DE PASSE ADMIN:  Tokenrandom&1
 
 Le compte donne accès à la modification d'un post et la suppression d'un post !
 
