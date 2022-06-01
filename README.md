@@ -33,9 +33,8 @@ puis
 
 ## Base de données
 
-Se connecter au serveur **MySql** de votre choix.
+Se connecter au serveur MySql de votre choix : WAMP, MAMP (Ce sont des exemples)
 Exécuter la commande: `create databases groupomania`
-Vérifiez les identifiants dans le fichier config.json du dossier Backend puis importer le fichier socialnetwork.sql s'il vous a été fourni :
 
     mysql -u root -p groupomania < groupomania_31052022.sql
 
