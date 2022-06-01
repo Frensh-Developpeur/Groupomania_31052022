@@ -199,6 +199,7 @@
           v-show="regexpBoolPassword === true"
         />
       </div>
+            <p class="infoPassword" v-show="regexpBoolPassword === false">Majuscule, caractère spécial, chiffre requis ! Minimum 7 caractère.</p>
         <!-- Affiche la partie modification de l'user -->
 
         <!-- Button de confirmation avec message -->

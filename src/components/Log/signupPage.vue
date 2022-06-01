@@ -103,6 +103,7 @@
           v-show="regexpBoolPassword === true"
         />
       </div>
+      <p class="infoPassword" v-show="regexpBoolPassword === false">Majuscule, caractère spécial, chiffre requis ! Minimum 7 caractère.</p>
       <label
         for="date-signup"
         id="fontText"
@@ -388,5 +389,8 @@ export default {
 </script>
 
 <style>
-.icoDiv{color:#fff;width:100%;border-radius:15px;display:flex;flex-direction:column;align-items:center;position:relative}.affichMdp{margin-top:15px;padding:5px;color:#000;height:16px;background:#fff;width:49.5%;text-align:center;font-family:Raleway,sans-serif;font-size:1.2rem}.validCheckRegexp{width:25px;height:26px;color:green;position:absolute;top:38%;right:25%}.eyesPassword{cursor:grab}.exclamationRegexp{width:30px;height:26px;color:red;position:absolute;top:38%;right:25%}.exclamationRegexpLogin{width:30px;height:26px;color:red;position:absolute;top:38%;right:29%}.validRegexpLogin{width:25px;height:26px;color:green;position:absolute;top:38%;right:29%}
+
+  
+
+.icoDiv{color:#fff;width:100%;border-radius:15px;display:flex;flex-direction:column;align-items:center;position:relative}.affichMdp{margin-top:15px;padding:5px;color:#000;height:16px;background:#fff;width:49.5%;text-align:center;font-family:Raleway,sans-serif;font-size:1.2rem}.validCheckRegexp{width:25px;height:26px;color:green;position:absolute;top:38%;right:25%}.eyesPassword{cursor:grab}.exclamationRegexp{width:30px;height:26px;color:red;position:absolute;top:38%;right:25%}.exclamationRegexpLogin{width:30px;height:26px;color:red;position:absolute;top:38%;right:29%}.validRegexpLogin{width:25px;height:26px;color:green;position:absolute;top:38%;right:29%}.infoPassword{margin-top:2%;color:#adff2f;font-size:1.3rem;text-align:center;width:40%;font-family:Raleway,sans-serif}@media screen and (max-width:700px){.infoPassword{font-size:.9rem;text-align:center;width:60%}}
 </style>
