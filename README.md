@@ -34,7 +34,7 @@ puis
 ## Base de données
 
 Se connecter au serveur MySql de votre choix : WAMP, MAMP (Ce sont des exemples)
-Exécuter la commande: `create databases groupomania`
+Exécuter la commande: `create databases groupomania` dans votre terminal 
 
     mysql -u root -p groupomania < groupomania_31052022.sql
 
