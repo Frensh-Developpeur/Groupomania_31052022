@@ -141,7 +141,7 @@
         />
         <font-awesome-icon
           icon="fa-solid fa-check"
-          class="verifRegexp"
+          class="validCheckRegexp svg-inline--fa fa-check"
           v-show="regexpBoolCity === true"
         />
       </div>
